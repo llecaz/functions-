@@ -1,11 +1,11 @@
-# 🐬💻 Exercícios de SQL
+#  Exercícios de SQL
 
-> ✨ Repositório criado para apresentar exercícios práticos de SQL utilizando funções, procedures, tabelas, inserção, atualização e consultas de dados.
+>  Repositório criado para apresentar exercícios práticos de SQL utilizando funções, procedures, tabelas, inserção, atualização e consultas de dados.
 
 Este projeto reúne exercícios desenvolvidos em **MySQL**, com o objetivo de praticar conceitos importantes de banco de dados, como criação de tabelas, funções, procedures, estruturas condicionais, inserção e atualização de registros.
 
 ```sql
--- 🌸 1. Função para dobrar um número
+--  1. Função para dobrar um número
 
 DELIMITER $$
 
@@ -43,7 +43,7 @@ DELIMITER ;
 SELECT situacao_aluno(8);
 
 
--- 👩‍🎓 3. Buscar alunos por idade
+--  3. Buscar alunos por idade
 
 CREATE TABLE aluno(
     NOME VARCHAR(20) NOT NULL,
@@ -68,7 +68,7 @@ DELIMITER ;
 CALL buscar_alunos_por_idade(18);
 
 
--- 📈 4. Aumentar a nota de um aluno
+--  4. Aumentar a nota de um aluno
 
 CREATE TABLE aluno (
     ID INT AUTO_INCREMENT PRIMARY KEY,
@@ -102,7 +102,7 @@ CALL aumentar_nota(5, 1);
 SELECT * FROM aluno;
 
 
--- 📝 5. Calcular média e mostrar situação
+--  5. Calcular média e mostrar situação
 
 CREATE TABLE aluno (
     ID INT PRIMARY KEY AUTO_INCREMENT,
