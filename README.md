@@ -20,7 +20,7 @@ DELIMITER ;
 SELECT dobro(10);
 
 
--- 🎓 2. Função para verificar a situação do aluno
+--  2. Função para verificar a situação do aluno
 
 DELIMITER $$
 
